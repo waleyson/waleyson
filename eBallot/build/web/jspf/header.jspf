@@ -1,0 +1,70 @@
+<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+        <!-- some meta tags, important for SEO"-->
+        <meta name="description" content="put a short description in here" />
+        <meta name="keywords" content="put your important keywords in here" />
+        <meta name="revisit-after" content="7 days" />
+        <meta name="robots" content="index,follow" />
+        
+        <title>eBallot Portal</title>
+
+
+        <link rel="stylesheet" href="css/inuit.css" />
+        <link rel="stylesheet" href="css/fluid-grid16-1100px.css" />
+        <link rel="stylesheet" href="css/eve-styles.css" />
+        <link rel="shortcut icon" href="icon.png" />
+        <link rel="apple-touch-icon-precomposed" href="img/icon.png" />
+
+        <script src="js/respond-min.js" type="text/javascript"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js" type="text/javascript"></script>
+        <script>window.jQuery || document.write('<script src="scripts/jquery164min.js">\x3C/script>')</script><!--local fallback for JQuery-->
+        <script src="js/jquery.flexslider-min.js" type="text/javascript"></script>
+        <link rel="stylesheet" href="css/flexslider.css" />
+
+        <script type="text/javascript">
+            $(window).load(function() {
+                $('.flexslider').flexslider({
+                    animation: "slide",<!--you can also choose fade here-->
+                    directionNav: false,<!--Attention: if you choose true here, the nav-buttons will also appear in the ticker! -->
+                    keyboardNav: true,
+                    mousewheel: true
+                });
+            });
+        </script>
+
+    </head>
+    <body>
+        <div class="wrapper">
+            <a href="index.html" id="logo"><img src="img/logo.png" alt="something" />
+                <h1 class="accessibility">eBallot Portal</h1></a>
+
+            <!--These are just samples, use your own icons. If you use larger ones, make sure too change the css-file to fit them in.
+                Dont´t forget to place your links -->
+            <div class="social">
+                <a href="http://www.facebook.com/profile.php?id=100001520859552" title="facebook"><img src="img/facebook.png" width="20" height="20" alt="facebook"></a>
+                <a href="http://twitter.com/#!/sg_layout" title="twitter"><img src="img/twitter.png" width="20" height="20" alt="twitter"></a>
+                <a href="#" title="linkedin"><img src="img/linkedin.png" width="20" height="20" alt="linkedin"></a>
+                <a href="#" title="vcard"><img src="img/vcard.png" width="20" height="20" alt="vcard"></a>
+                <a href="#" title="picasa"><img src="img/picasa.png" width="20" height="20" alt="picasa"></a>
+                
+            </div>
+
+            
+            <ul id="nav" class="main">
+                <li><a href="index.jsp" class="active">Home</a></li>
+                <li><a href="login.jsp">Vote</a></li>
+                <li><a href="voterReg.jsp">Register</a></li>
+                <li><a href="ParlResult.jsp">Live Result</a></li>
+                <li><a href="setup.jsp">Setup</a></li>
+                <li><a href="contact.jsp">Contact</a></li>
+            </ul>
+
+
+        </div><!--end of wrapper div-->
+        <div class="clear"></div>

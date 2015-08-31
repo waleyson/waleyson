@@ -1,0 +1,36 @@
+<%-- any content can be specified here e.g.: --%>
+<div class="wrapper">
+            <div id="footer">
+
+
+                <div class="grids">
+                    <div class="grid-5 grid text-center">
+                        <p>&copy; Ola 2014 by <a href="#" title="SG-Layout Webdesign - contact me!"> Builtlet</a></p>
+                    </div>
+                    <div class="grid-6 grid text-center">
+                        <p></p>
+                    </div>
+
+                    <div class="grid-5 grid text-center">
+                        <p>Contact me <a href="#" title="Contact me!">here</a></p>
+                    </div>
+
+                </div><!--end of grids-->
+            </div><!--end of footer-->
+        </div><!--end of wrapper-->
+
+
+        <script type="text/javascript"> <!--Outdated browsers warning/message and link to Browser-Update. Comment or delete it if you don´t want to use it-->
+            var $buoop = {}
+            $buoop.ol = window.onload;
+            window.onload=function(){
+                try {if ($buoop.ol) $buoop.ol();}catch (e) {}
+                var e = document.createElement("script");
+                e.setAttribute("type", "text/javascript");
+                e.setAttribute("src", "http://browser-update.org/update.js");
+                document.body.appendChild(e);
+            }
+        </script>
+
+    </body>
+</html>
