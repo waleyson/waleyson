@@ -1,0 +1,12 @@
+1192-1875-5725-3607-4853-5539
+1192-1444-3684-0468-8773-7432
+1192-1709-7183-7519-2609-4862
+1192-1351-9034-3623-6726-7220
+1192-1357-8892-1845-0950-0983
+
+Don't ever post serial numbers on the boards.....
+and 
+Dont just randomly use all the serials
+if you get an invalid serial issue most often 99.99%
+of the time your hosts will not be set or your
+av software has reset your hosts.
